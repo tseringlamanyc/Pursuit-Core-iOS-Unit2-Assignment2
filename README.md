@@ -2,7 +2,7 @@
 
 ![gotGif](./gotGif.gif)
 
-## Section Zero: Github
+## Github
 
 - Fork this repository.
 - Clone it to your machine
@@ -11,7 +11,7 @@
 - Create a pull request from your fork back to the original repo here
 - Paste the link to your fork into Canvas
 
-## Section 1: Project Requirements
+## Project Requirements
 
 - Create and populate a tableview with the **GOTData**
 - Create sections that filter the **GOTData** by season.
@@ -24,6 +24,10 @@
 
 - App must be dynamically laid out for portrait mode for all devices. Use autolayout.
 
-## Section 2: Bonus
+## Rubric
+
+![gotRubric](./gotRubric.png)
+
+## Bonus
 
 - Create a search bar that filters on the name of the episode or the summary.
