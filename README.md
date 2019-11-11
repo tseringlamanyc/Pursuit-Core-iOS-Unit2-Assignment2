@@ -1,5 +1,7 @@
 ## Unit2-Assigment2 - Game of Thrones
 
+![gotGif](./gotGif.gif)
+
 ## Section Zero: Github
 
 - Fork this repository.
@@ -18,13 +20,7 @@
 ![ScreenShot](https://i.imgur.com/NM1NFbc.png))
 - Alternate the tableview cells as shown below.
 
-![](https://media.giphy.com/media/xT4ApfmOfxwVramELK/giphy.gif)
-
 - Create a detail view controller. When you select a row in the tableview it should segue to the correct detail view. Don't forget to pass the object to the detail page in the segue.
-
-![](https://media.giphy.com/media/3otWpoVBEgHIed4otG/giphy.gif)
-
-- Create a back button that segues from the detail view to the tableview.
 
 - App must be dynamically laid out for portrait mode for all devices. Use autolayout.
 
