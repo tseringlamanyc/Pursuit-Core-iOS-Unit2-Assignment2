@@ -24,7 +24,7 @@ class DeatilsViewController: UIViewController {
         detaillImage.image = UIImage(named: data.originalImageID)
         seasonLabel.text = "Season: \(data.season.description)"
         episodeLabel.text = "Episode: \(data.number.description)"
-        runtimeLabel.text = data.runtime.description
+        runtimeLabel.text = "Runtime: \(data.runtime.description)"
         airtimeLabel.text = "Airtime: \(data.airdate.description)"
         detailsLabel.text = data.summary
 
