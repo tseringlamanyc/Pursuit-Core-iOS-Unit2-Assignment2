@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="left" rowHeight="190" id="gUf-Fo-ypF" customClass="BothTableViewCell" customModule="GameOfThrones" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="left" rowHeight="190" id="gUf-Fo-ypF" customClass="LeftTableViewCell" customModule="GameOfThrones" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="190"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gUf-Fo-ypF" id="jbV-Zf-l8k">
@@ -67,7 +67,7 @@
                                             <segue destination="nTa-DT-kST" kind="show" id="CZ0-hx-oKf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="right" rowHeight="198" id="MYJ-mN-td9" customClass="BothTableViewCell" customModule="GameOfThrones" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="right" rowHeight="198" id="MYJ-mN-td9" customClass="RightTableViewCell" customModule="GameOfThrones" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="218" width="414" height="198"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MYJ-mN-td9" id="HgK-pU-VXy">
@@ -107,9 +107,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="rightImage" destination="YeD-xY-xOd" id="Tdd-cf-G8W"/>
-                                            <outlet property="rightName" destination="Ilm-eC-hlv" id="avW-B5-D6G"/>
-                                            <outlet property="rightNumber" destination="Vnc-t5-PiV" id="mkD-X0-h7d"/>
+                                            <outlet property="rightImage" destination="YeD-xY-xOd" id="4WI-Aw-kZ8"/>
+                                            <outlet property="rightName" destination="Ilm-eC-hlv" id="0y0-wW-Swd"/>
+                                            <outlet property="rightNumber" destination="Vnc-t5-PiV" id="fPx-5t-fnX"/>
                                             <segue destination="nTa-DT-kST" kind="show" id="Mhu-Mm-Ycn"/>
                                         </connections>
                                     </tableViewCell>

@@ -36,16 +36,31 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "left", for: indexPath) as? BothTableViewCell else {
-            fatalError()
-        }
+        
         let episode = data[indexPath.section][indexPath.row]
-        cell.configureLeft(got: episode)
-        return cell
+        
+        if indexPath.section % 2 == 0 {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "left", for: indexPath) as? LeftTableViewCell else {
+                fatalError()
+            }
+            cell.configureLeft(got: episode)
+            return cell
+            
+        } else {
+            if indexPath.section % 2 == 1 {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "right", for: indexPath) as? RightTableViewCell else {
+                    fatalError()
+                }
+                cell.configureRight(got: episode)
+                return cell
+            }
+        }
+        
+        return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return data[section].first?.season.description
+        return "Season: \(data[section].first?.season.description ?? "1")"
     }
 }
 
