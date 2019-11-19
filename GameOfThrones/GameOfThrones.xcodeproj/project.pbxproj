@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52B4268F23839D430000CBF6 /* DeatilsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4268E23839D430000CBF6 /* DeatilsViewController.swift */; };
+		52E0859C23847D020075AFF2 /* BothTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0859B23847D020075AFF2 /* BothTableViewCell.swift */; };
 		57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D229219F70EA00B5753A /* AppDelegate.swift */; };
 		57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D22B219F70EA00B5753A /* ViewController.swift */; };
 		57D0D22F219F70EA00B5753A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D22D219F70EA00B5753A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		52B4268E23839D430000CBF6 /* DeatilsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatilsViewController.swift; sourceTree = "<group>"; };
+		52E0859B23847D020075AFF2 /* BothTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BothTableViewCell.swift; sourceTree = "<group>"; };
 		57D0D226219F70EA00B5753A /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D0D229219F70EA00B5753A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D0D22B219F70EA00B5753A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				57D0D229219F70EA00B5753A /* AppDelegate.swift */,
 				57D0D22B219F70EA00B5753A /* ViewController.swift */,
+				52E0859B23847D020075AFF2 /* BothTableViewCell.swift */,
 				57D0D22D219F70EA00B5753A /* Main.storyboard */,
 				52B4268E23839D430000CBF6 /* DeatilsViewController.swift */,
 				57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */,
@@ -144,6 +147,7 @@
 				57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */,
 				57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */,
 				57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */,
+				52E0859C23847D020075AFF2 /* BothTableViewCell.swift in Sources */,
 				52B4268F23839D430000CBF6 /* DeatilsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
