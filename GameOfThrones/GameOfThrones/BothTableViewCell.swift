@@ -23,7 +23,7 @@ class BothTableViewCell: UITableViewCell {
         leftNumber.text = "S:\(got.season) E:\(got.number)"
     }
     
-    func configureRight (got: GOTEpisode){
+    func configureRight (got: GOTEpisode) {
         rightImage.image = UIImage(named: got.mediumImageID)
         rightName.text = got.name
         rightNumber.text = "S:\(got.season) E:\(got.number)"
