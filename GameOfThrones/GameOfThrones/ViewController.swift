@@ -23,6 +23,14 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         data = GOTEpisode.getSeasons()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let vc = segue.destination as? DeatilsViewController, let indexpath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        vc.data = data[indexpath.section][indexpath.row]
+    }
+    
 }
 
 extension ViewController: UITableViewDataSource {
@@ -47,16 +55,12 @@ extension ViewController: UITableViewDataSource {
             return cell
             
         } else {
-            if indexPath.section % 2 == 1 {
                 guard let cell = tableView.dequeueReusableCell(withIdentifier: "right", for: indexPath) as? RightTableViewCell else {
                     fatalError()
                 }
                 cell.configureRight(got: episode)
                 return cell
             }
-        }
-        
-        return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
